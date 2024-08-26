@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter';
+    background: #f2f2f2; 
+  }
+  
+  /* start hero */
+  .hero {
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+  }
+  
+  .left {
+    width: 50%;
+    margin: 30px;
+    padding: 1%;
+  }
+  
+  .left h1 {
+    font-size: 30px;
+    padding-top: 100px;
+    color: #000;
+  }
+  
+  .left p {
+    font-size: 20px;
+    color: #000;
+    padding-top: 20px;
+    line-height: 5vh;
+  }
+  .left a{
+    color: #733924 ;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  .left a:hover{
+    color: blue;
+  }
+  .right img {
+    width: 90%;
+    margin: 5px 1%;
+    border-radius: 10px;
+    height: 60vh;
+  }
+   /* end hero */
+
+
+
+         /* =================================================================*/
+
+
+    /* start card-parent */
+  .card-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .card-parent .card {
+    width: 300px;
+    box-shadow:   0 10px 10px rgba(0,0,0,0.2);
+    border: #000 2px solid;
+    border-radius: 10%;
+    padding: 1%;
+    }
+    .cardHead{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-parent .card img{
+      width: 45px;
+      height: 1%;
+    }
+  .card-parent .card h1 {
+    font-size: 20px;
+    padding: 15px;
+  }
+  
+  
+  .card p {
+    font-size: 15px;
+    color: #000;
+    line-height: 1.5;
+  }
+   /* end card-parent */
+
+
+
+  
+         /* =================================================================*/
+
+
+    /* start customer */
+  
+      /* end customer */
+
+
+
+  
+         /* =================================================================*/
+
+
+    /* start end-section */
+  .end-section {
+    margin:50px 30px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+  }
+  
+  .bestCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 74vh;
+    border-radius: 10px;
+    box-shadow:  0 10px 10px 0  rgba(0, 0, 0,0.25);
+  }
+  .bestCard:hover {
+    transition: transform 0.4s ease-in-out;
+    transform: scale(1.07,1.07);
+  }
+  
+  .bestCard img {
+    width: 100%;
+    height: 33vh;
+    transition: transform 1s ease-in-out;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .bestCard img:hover {
+    transform: scale(0.7);
+  }
+  
+  .bestCard h1,
+  .bestCard h3,
+  .bestCard span {
+    padding: 20px 25px 5px 25px;
+  }
+  
+  .bestCard h1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #bf7449;
+  }
+  
+  .bestCard h3
+   {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5e888c;
+  }
+  
+
+  .bestCard span {
+    font-size: 25px;
+    font-weight: 600;
+    color: #93bbbf;
+  }
+  
+  .bestCard button {
+   padding: 2%;
+   margin: 5px 0;
+   border: none;
+   width: 100%;
+   border-radius: 10px;
+   color: #733924;
+   font-weight: 700;
+   font-size: large;
+   background-color: #5e888c;
+   transition: all 0.2s ease-out;
+  }
+  
+  .bestCard button:hover {
+    background-color: #733924;
+    color: #5e888c;
+  }
+  
+  #best{
+    align-self: center;
+    color: #733924;
+  }
+
+  #formBest{
+    display: flex;
+    flex-direction: column;
+  }
+  /* end end-section */

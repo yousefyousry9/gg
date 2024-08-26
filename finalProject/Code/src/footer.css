@@ -1,0 +1,98 @@
+
+footer {
+    background-color: #733924; 
+    color: white;
+    padding: 20px 20px 5px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.newsletter .input 
+ {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+}
+.newsletter button {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5e888c; 
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.newsletter button:hover {
+    background-color: green; 
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+}
+
+#terms {
+    margin-right: 10px;
+}
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #000; 
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #0073e6; 
+}
